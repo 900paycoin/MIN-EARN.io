@@ -203,18 +203,38 @@
 
 			</li>
 
-				
-                        <li class="media">    
-                        <a href="https://my.jpesa.com/?dad=xp&ownerid=godfrey.nsereko&amount=24000%C2%A4cy=UGX" onclick="navigate('createPortfolio');" <button="" class="btn btn-primary btn-block waves-effect">subscription </a>
-                        
+			
 
-			</li>
+			  
+
+				<form name="JPesa" method="post" action="https://my.jpesa.com/?dad=xp">
+
+					<input type="hidden" name="ownerid" value="godfrey.nsereko"  />
+
+					<input type="hidden" name="description" value="Credit Note" />
+
+					<input type="hidden" name="return" value="https://my.jpesa.com" />
+
+					<input type="hidden" name="cancel" value="https://my.jpesa.com" />
+
+					<select name="cur">
+  
+						<option value="UGX">UGX</option>
+ 
+						<option value="KES">KES</option>
+ 
+						<option value="USD">USD</option>
+
+					</select>
+
+					<input name="amount" type="text" size="15" />
+
+					<input type="submit" name="pay" value="Make Payment" />
 
 				
-			 <li class="media">    
-                        <a href="wa.me/256740217802" onclick="navigate('createPortfolio');" <button="" class="btn btn-primary btn-block waves-effect">BUY NOW</a>
-                        </li>	
-				
+				</form>
+
+	
 			</form>
 			</div>
 			<div class="row">
